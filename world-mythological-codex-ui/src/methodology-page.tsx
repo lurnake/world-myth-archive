@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Users, Brain, Scroll, Hash, Sparkles, Database, ChevronDown, FileText, Zap, ArrowLeft } from 'lucide-react';
+import { BookOpen, Users, Brain, Scroll, Hash, Sparkles, Database, ChevronDown, FileText, Zap, ArrowLeft, Layers } from 'lucide-react';
 
 interface MethodologyPageProps {
   onNavigateHome: () => void;
@@ -150,9 +150,11 @@ const MethodologyPage: React.FC<MethodologyPageProps> = ({ onNavigateHome }) => 
               <div>
                 <h2 className="text-4xl md:text-5xl font-display text-codex-paper mb-6">Systematic Analysis</h2>
                 <p className="text-xl text-codex-paper/80 leading-relaxed font-light">
-                  The World Myth Archive employs a rigorous, multi-layered analytical framework that synthesizes 
-                  over seven decades of scholarship in mythology, folklore, anthropology, and cognitive science. 
-                  The methodology enables systematic, reproducible analysis of mythological narratives across cultures.
+                  The archive reads each myth through several lenses at once — the shape of its action, the roles its
+                  figures play, what it does for the society that told it, why it stuck in memory. The lenses are
+                  borrowed from folklore, anthropology, and the cognitive science of religion. They are applied by
+                  machine and meant for discovery: a way to line up comparable passages across cultures, not a claim
+                  to have settled what any of them mean.
                 </p>
                       </div>
 
@@ -367,8 +369,9 @@ const MethodologyPage: React.FC<MethodologyPageProps> = ({ onNavigateHome }) => 
               <div>
                 <h2 className="text-4xl font-display text-codex-paper mb-6">Controlled Vocabularies</h2>
                 <p className="text-xl text-codex-paper/80 leading-relaxed font-light">
-                  Eight carefully curated lexicons provide the foundation for systematic analysis, 
-                  ensuring theoretical rigor and scholarly validity.
+                  Eight curated lexicons hold the vocabulary the archive tags against. Each term traces back to a
+                  named scholarly tradition; keeping the lists small and fixed is what makes passages comparable
+                  instead of drowning in ad-hoc labels.
                 </p>
               </div>
 
@@ -513,41 +516,54 @@ const MethodologyPage: React.FC<MethodologyPageProps> = ({ onNavigateHome }) => 
                 <div className="p-8 border border-codex-border bg-codex-obsidian/80">
                   <div className="flex items-center gap-3 mb-6">
                     <Database className="w-5 h-5 text-codex-gold" />
-                    <h3 className="text-xl font-display text-codex-paper">PostgreSQL + pgvector</h3>
+                    <h3 className="text-xl font-display text-codex-paper">Local-first, by design</h3>
                   </div>
                   <div className="grid md:grid-cols-2 gap-8">
                     <ul className="space-y-3 text-sm text-codex-paper/60">
-                      <li className="flex gap-2"><span className="text-codex-gold">•</span> Structured storage for texts & taxonomies</li>
-                      <li className="flex gap-2"><span className="text-codex-gold">•</span> 1536-dim Vector embeddings (OpenAI)</li>
-                      <li className="flex gap-2"><span className="text-codex-gold">•</span> JSONB for flexible metadata</li>
+                      <li className="flex gap-2"><span className="text-codex-gold">•</span> Each work is plain Markdown with rich YAML frontmatter</li>
+                      <li className="flex gap-2"><span className="text-codex-gold">•</span> A build step turns the corpus into one static JSON index</li>
+                      <li className="flex gap-2"><span className="text-codex-gold">•</span> The browser searches that index — no server, no database, no account</li>
                         </ul>
                     <div className="font-mono text-xs text-codex-paper/40 bg-black/40 p-4 border border-codex-border/50">
-                      works (id, title, origin)<br/>
-                      ├── chunks (embedding, text)<br/>
-                      └── tags (entity_id, code)
+                      Corpus Forge/works/*.md<br/>
+                      &nbsp;&nbsp;└─ build → search-index.json<br/>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ browser (read &amp; search)
                     </div>
                   </div>
                       </div>
-                      
+
                 <div className="p-8 border border-codex-border bg-codex-obsidian/80">
                   <div className="flex items-center gap-3 mb-6">
                     <Zap className="w-5 h-5 text-codex-gold" />
-                    <h3 className="text-xl font-display text-codex-paper">Hybrid Search</h3>
+                    <h3 className="text-xl font-display text-codex-paper">How search works today</h3>
                   </div>
                   <div className="grid md:grid-cols-2 gap-8">
                       <div>
-                      <h4 className="font-display text-codex-paper text-sm mb-2">Semantic</h4>
+                      <h4 className="font-display text-codex-paper text-sm mb-2">Weighted lexical</h4>
                       <p className="text-sm text-codex-paper/50 leading-relaxed">
-                        Cosine similarity search for conceptual discovery ("heroes facing mortality").
+                        Ranked text matching with a small association layer, so "flood" also reaches "deluge" and "underworld" reaches "land of the dead." Honest lexical search, not embeddings.
                       </p>
                     </div>
                     <div>
-                      <h4 className="font-display text-codex-paper text-sm mb-2">Structured</h4>
+                      <h4 className="font-display text-codex-paper text-sm mb-2">Controlled vocabulary</h4>
                       <p className="text-sm text-codex-paper/50 leading-relaxed">
-                        Exact filtering using controlled vocabulary codes for precise retrieval.
+                        Filter by the tag codes themselves, or by exact phrase, when you want precision over reach.
                       </p>
                     </div>
                   </div>
+                </div>
+
+                <div className="p-8 border border-codex-border/60 bg-codex-obsidian/40">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Layers className="w-5 h-5 text-codex-gold/70" />
+                    <h3 className="text-xl font-display text-codex-paper/90">Where it's headed</h3>
+                  </div>
+                  <p className="text-sm text-codex-paper/50 leading-relaxed">
+                    The static JSON index is deliberately a bridge. Because the corpus is authored as Markdown, the
+                    retrieval layer underneath it can be swapped for SQLite, or for Postgres with vector embeddings,
+                    without changing how the texts are written. That is the planned next step — added as a layer,
+                    with its own caveats and versioning, once the corpus and its tagging are stable. It is not built yet.
+                  </p>
                 </div>
               </div>
             </div>

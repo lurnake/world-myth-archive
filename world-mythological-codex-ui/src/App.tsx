@@ -66,7 +66,7 @@ const CodexHero = ({ onNavigate }: { onNavigate: (page: string) => void }) => {
             </span>
           </h1>
           <p className="max-w-2xl mx-auto text-xl md:text-2xl text-codex-paper/60 font-light font-serif leading-relaxed">
-            A computational interface for the comparative study of universal patterns, archetypes, and cognitive structures in human mythology.
+            Twenty-five of humanity's oldest epics — Gilgamesh to the Eddas, the Mahabharata to the Popol Vuh — read straight through, or cross-searched by the motifs they share.
           </p>
         </div>
 
@@ -118,12 +118,12 @@ const FeatureCard = ({ icon, title, desc, delay }: { icon: React.ReactNode, titl
 
 const TaxonomyGrid = () => {
   const taxonomies = [
-    { id: '01', name: 'Archetypes', count: '17', desc: 'Jungian & Campbellian Roles' },
-    { id: '02', name: 'Functions', count: '14', desc: 'Dumézilian Social Structures' },
-    { id: '03', name: 'Cognition', count: '12', desc: 'Evolutionary Psychology' },
+    { id: '01', name: 'Archetypes', count: '16', desc: 'Jungian & Campbellian Roles' },
+    { id: '02', name: 'Functions', count: '13', desc: 'Dumézilian Social Structures' },
+    { id: '03', name: 'Cognition', count: '11', desc: 'Evolutionary Psychology' },
     { id: '04', name: 'Themes', count: '20', desc: 'Stith Thompson Motifs' },
-    { id: '05', name: 'Rites', count: '17', desc: 'Van Gennep Rituals' },
-    { id: '06', name: 'Narrative', count: '31', desc: 'Proppian Morphology' },
+    { id: '05', name: 'Rites', count: '18', desc: 'Van Gennep Rituals' },
+    { id: '06', name: 'Narrative', count: '30', desc: 'Proppian Morphology' },
   ];
 
   return (
@@ -212,13 +212,14 @@ const App = () => {
             <div className="space-y-8 sticky top-32">
               <h2 className="text-4xl font-display text-codex-gold">Taxonomic Framework</h2>
               <p className="text-xl font-serif text-codex-paper/80 leading-relaxed">
-                The Codex utilizes a rigorous multi-layered tagging system derived from seven decades of scholarship. 
-                Each narrative is dissected into constituent atomic units of meaning.
+                Every passage is tagged against controlled vocabularies borrowed from folklore and anthropology —
+                Propp, Dumézil, Stith Thompson, the cognitive-science of religion. The tags are applied by machine,
+                so they are a way to find things, not a verdict on what they mean.
               </p>
               <div className="space-y-4 pt-8">
                 <div className="flex items-center gap-4 text-sm font-mono text-codex-paper/60 border-b border-codex-border pb-4">
                   <Database className="w-4 h-4 text-codex-gold" />
-                  <span>111+ Controlled Vocabulary Terms</span>
+                  <span>140+ Controlled Vocabulary Terms</span>
                 </div>
                 <div className="flex items-center gap-4 text-sm font-mono text-codex-paper/60 border-b border-codex-border pb-4">
                   <Layers className="w-4 h-4 text-codex-gold" />
@@ -226,7 +227,7 @@ const App = () => {
                 </div>
                 <div className="flex items-center gap-4 text-sm font-mono text-codex-paper/60 border-b border-codex-border pb-4">
                   <Network className="w-4 h-4 text-codex-gold" />
-                  <span>Graph-Based Relationships</span>
+                  <span>Entities Linked Across Works</span>
                 </div>
               </div>
             </div>
@@ -240,23 +241,23 @@ const App = () => {
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-codex-gold/30 to-transparent" />
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
-            <FeatureCard 
+            <FeatureCard
               delay={0}
               icon={<BookOpen className="w-8 h-8" />}
-              title="Comparative Synthesis"
-              desc="Cross-reference narratives from Mesopotamia to Mesoamerica using a unified structural ontology."
+              title="Read Across Cultures"
+              desc="Follow one motif — the flood, the descent, the trickster's theft — from Mesopotamia to Mesoamerica, surfacing it wherever it appears."
             />
-            <FeatureCard 
+            <FeatureCard
               delay={100}
               icon={<Layers className="w-8 h-8" />}
-              title="Deep Semantics"
-              desc="Beyond keyword search. Vector embeddings capture the conceptual essence of mythological motifs."
+              title="Search That Stays Local"
+              desc="Weighted lexical search with a small association layer, so 'flood' reaches 'deluge.' Runs entirely in your browser — no server, no account."
             />
-            <FeatureCard 
+            <FeatureCard
               delay={200}
               icon={<Share2 className="w-8 h-8" />}
-              title="Open Scholarship"
-              desc="A fully transparent methodology with reproducible data structures for academic research."
+              title="Open and Traceable"
+              desc="Public-domain texts, open data, every passage cited back to its source edition. Machine tags are shown as aids, never as the last word."
             />
           </div>
         </div>
@@ -270,7 +271,7 @@ const App = () => {
             "Myths are public dreams, dreams are private myths."
           </p>
           <div className="text-xs font-mono text-codex-paper/20 tracking-widest">
-            WORLD MYTHOLOGICAL CODEX © 2024
+            WORLD MYTHOLOGICAL CODEX © 2026
           </div>
         </div>
       </footer>
