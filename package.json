@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "generate:works": "node scripts/extract-works-metadata.js",
+    "generate:search": "node scripts/build-local-search-index.js",
+    "generate:data": "npm run generate:works && npm run generate:search",
+    "qa": "node scripts/report-corpus-quality.js",
+    "build": "npm run ui:build",
+    "lint": "npm run ui:lint",
+    "verify": "npm run generate:data && npm run qa && npm run build && npm run lint",
+    "ui:dev": "npm --prefix world-mythological-codex-ui run dev",
+    "ui:build": "npm --prefix world-mythological-codex-ui run build",
+    "ui:lint": "npm --prefix world-mythological-codex-ui run lint"
+  }
+}

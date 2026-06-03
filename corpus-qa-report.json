@@ -1,0 +1,3254 @@
+{
+  "generatedAt": "2026-06-03T08:39:42.736Z",
+  "worksChecked": 25,
+  "summary": {
+    "totalIssues": 449,
+    "worksWithIssues": 15,
+    "issueTypes": {
+      "suspicious-heading": 147,
+      "tiny-section": 128,
+      "duplicate-heading": 171,
+      "low-tag-coverage": 1,
+      "completeness-caveat": 2
+    }
+  },
+  "works": [
+    {
+      "file": "Aeneid.md",
+      "workId": "ROM_AENEID_DRYDEN",
+      "title": "The Aeneid",
+      "bodyWordCount": 107576,
+      "headingCount": 25,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 199,
+        "taggedChunks": 197,
+        "entityChunks": 195,
+        "distinctFigures": 53,
+        "distinctCreatures": 25
+      },
+      "issues": [
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 9,
+          "text": "BOOK I"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 11,
+          "text": "BOOK II"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 13,
+          "text": "BOOK III"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 15,
+          "text": "BOOK IV"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 17,
+          "text": "BOOK V"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 19,
+          "text": "BOOK VI"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 21,
+          "text": "BOOK VII"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 23,
+          "text": "BOOK VIII"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 25,
+          "text": "BOOK IX"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 27,
+          "text": "BOOK X"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 31,
+          "text": "BOOK XII"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 33,
+          "text": "BOOK I"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 1156,
+          "text": "BOOK II"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 2295,
+          "text": "BOOK III"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 3290,
+          "text": "BOOK IV"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 4359,
+          "text": "BOOK V"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 5554,
+          "text": "BOOK VI"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 6843,
+          "text": "BOOK VII"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 8013,
+          "text": "BOOK VIII"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 9027,
+          "text": "BOOK IX"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 10198,
+          "text": "BOOK X"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 11589,
+          "text": "BOOK XI"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 12970,
+          "text": "BOOK XII"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "tiny-section",
+          "line": 1,
+          "text": "THE AENEID",
+          "wordCount": 7
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book i"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book ii"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book iii"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book iv"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book v"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book vi"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book vii"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book viii"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book ix"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book x"
+        },
+        {
+          "workId": "ROM_AENEID_DRYDEN",
+          "type": "duplicate-heading",
+          "text": "book xii"
+        }
+      ]
+    },
+    {
+      "file": "Argonautica.md",
+      "workId": "GRK_ARGONAUTICA_SEATON",
+      "title": "The Argonautica",
+      "bodyWordCount": 60900,
+      "headingCount": 12,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 113,
+        "taggedChunks": 112,
+        "entityChunks": 111,
+        "distinctFigures": 47,
+        "distinctCreatures": 21
+      },
+      "issues": [
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "introduction",
+          "line": 33,
+          "text": "INTRODUCTION"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 35,
+          "text": "BOOK I"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 36,
+          "text": "BOOK II"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 37,
+          "text": "BOOK III"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 38,
+          "text": "BOOK IV"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "introduction",
+          "line": 41,
+          "text": "INTRODUCTION"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 186,
+          "text": "BOOK I"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 1448,
+          "text": "BOOK II"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 2593,
+          "text": "BOOK III"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 3840,
+          "text": "BOOK IV"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "tiny-section",
+          "line": 38,
+          "text": "BOOK IV",
+          "wordCount": 1
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "duplicate-heading",
+          "text": "introduction"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "duplicate-heading",
+          "text": "the argonautica"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "duplicate-heading",
+          "text": "book i"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "duplicate-heading",
+          "text": "book ii"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "duplicate-heading",
+          "text": "book iii"
+        },
+        {
+          "workId": "GRK_ARGONAUTICA_SEATON",
+          "type": "duplicate-heading",
+          "text": "book iv"
+        }
+      ]
+    },
+    {
+      "file": "Beowulf.md",
+      "workId": "ANG_BEOWULF_HALL",
+      "title": "Beowulf",
+      "bodyWordCount": 34579,
+      "headingCount": 43,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 78,
+        "taggedChunks": 77,
+        "entityChunks": 75,
+        "distinctFigures": 18,
+        "distinctCreatures": 11
+      },
+      "issues": []
+    },
+    {
+      "file": "Book_of_the_Dead.md",
+      "workId": "EGY_BOOK_DEAD_BUDGE",
+      "title": "The Egyptian Book of the Dead",
+      "bodyWordCount": 18899,
+      "headingCount": 23,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 47,
+        "taggedChunks": 47,
+        "entityChunks": 47,
+        "distinctFigures": 20,
+        "distinctCreatures": 5
+      },
+      "issues": [
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 1,
+          "text": "Chapter XV."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 48,
+          "text": "Chapter I."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 61,
+          "text": "Chapter XXII."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 131,
+          "text": "CHAPTER CXLVI."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 208,
+          "text": "CHAPTER LXI."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 213,
+          "text": "CHAPTER LV."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 215,
+          "text": "CHAPTER XL."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 288,
+          "text": "CHAPTER XLII."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 291,
+          "text": "CHAPTER CLV."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 293,
+          "text": "CHAPTER CLVI."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 299,
+          "text": "Chapter CX."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 301,
+          "text": "CHAPTER CXLVIII."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "suspicious-heading",
+          "subtype": "generic-chapter-heading",
+          "line": 316,
+          "text": "CHAPTER CLXXXVI."
+        },
+        {
+          "workId": "EGY_BOOK_DEAD_BUDGE",
+          "type": "duplicate-heading",
+          "text": "chapter xxxb."
+        }
+      ]
+    },
+    {
+      "file": "Enuma_Elis.md",
+      "workId": "AKK_ENUMA_ELIS_KING",
+      "title": "Enūma Eliš (The Seven Tablets of Creation)",
+      "bodyWordCount": 5221,
+      "headingCount": 5,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 11,
+        "taggedChunks": 11,
+        "entityChunks": 11,
+        "distinctFigures": 22,
+        "distinctCreatures": 2
+      },
+      "issues": []
+    },
+    {
+      "file": "Hesiod_Theogony.md",
+      "workId": "GRK_THEOGONY_HESIOD_EVELYN",
+      "title": "Theogony",
+      "bodyWordCount": 9982,
+      "headingCount": 1,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 18,
+        "taggedChunks": 18,
+        "entityChunks": 18,
+        "distinctFigures": 38,
+        "distinctCreatures": 18
+      },
+      "issues": []
+    },
+    {
+      "file": "Homeric_Hymns.md",
+      "workId": "GRK_HOMERIC_HYMNS_EVELYN",
+      "title": "The Homeric Hymns",
+      "bodyWordCount": 25185,
+      "headingCount": 35,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 68,
+        "taggedChunks": 68,
+        "entityChunks": 68,
+        "distinctFigures": 33,
+        "distinctCreatures": 5
+      },
+      "issues": []
+    },
+    {
+      "file": "Iliad.md",
+      "workId": "GRK_ILIAD_BUTLER",
+      "title": "The Iliad",
+      "bodyWordCount": 152806,
+      "headingCount": 49,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 281,
+        "taggedChunks": 281,
+        "entityChunks": 279,
+        "distinctFigures": 53,
+        "distinctCreatures": 12
+      },
+      "issues": [
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 11,
+          "text": "BOOK I."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 12,
+          "text": "BOOK II."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 13,
+          "text": "BOOK III."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 14,
+          "text": "BOOK IV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 15,
+          "text": "BOOK V."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 16,
+          "text": "BOOK VI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 17,
+          "text": "BOOK VII"
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 18,
+          "text": "BOOK VIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 19,
+          "text": "BOOK IX."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 20,
+          "text": "BOOK X."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 21,
+          "text": "BOOK XI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 22,
+          "text": "BOOK XII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 23,
+          "text": "BOOK XIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 24,
+          "text": "BOOK XIV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 25,
+          "text": "BOOK XV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 26,
+          "text": "BOOK XVI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 27,
+          "text": "BOOK XVII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 28,
+          "text": "BOOK XVIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 29,
+          "text": "BOOK XIX."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 30,
+          "text": "BOOK XX."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 31,
+          "text": "BOOK XXI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 32,
+          "text": "BOOK XXII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 33,
+          "text": "BOOK XXIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 34,
+          "text": "BOOK XXIV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 36,
+          "text": "BOOK I."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 600,
+          "text": "BOOK II."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 1405,
+          "text": "BOOK III."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 1807,
+          "text": "BOOK IV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 2289,
+          "text": "BOOK V."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 3105,
+          "text": "BOOK VI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 3576,
+          "text": "BOOK VII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 3998,
+          "text": "BOOK VIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 4507,
+          "text": "BOOK IX."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 5121,
+          "text": "BOOK X."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 5651,
+          "text": "BOOK XI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 6447,
+          "text": "BOOK XII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 6878,
+          "text": "BOOK XIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 7668,
+          "text": "BOOK XIV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 8163,
+          "text": "BOOK XV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 8860,
+          "text": "BOOK XVI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 9689,
+          "text": "BOOK XVII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 10369,
+          "text": "BOOK XVIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 10940,
+          "text": "BOOK XIX."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 11315,
+          "text": "BOOK XX."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 11789,
+          "text": "BOOK XXI."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 12360,
+          "text": "BOOK XXII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 12857,
+          "text": "BOOK XXIII."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 13697,
+          "text": "BOOK XXIV."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "tiny-section",
+          "line": 1,
+          "text": "THE ILIAD OF HOMER",
+          "wordCount": 18
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book i."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book ii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book iii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book iv."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book v."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book vi."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book viii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book ix."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book x."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xi."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xiii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xiv."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xv."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xvi."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xvii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xviii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xix."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xx."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xxi."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xxii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xxiii."
+        },
+        {
+          "workId": "GRK_ILIAD_BUTLER",
+          "type": "duplicate-heading",
+          "text": "book xxiv."
+        }
+      ]
+    },
+    {
+      "file": "Kalevala.md",
+      "workId": "FINN_KALEVALA_CRAWFORD",
+      "title": "The Kalevala",
+      "bodyWordCount": 126162,
+      "headingCount": 52,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 242,
+        "taggedChunks": 242,
+        "entityChunks": 229,
+        "distinctFigures": 22,
+        "distinctCreatures": 7
+      },
+      "issues": []
+    },
+    {
+      "file": "Kojiki.md",
+      "workId": "JPN_KOJIKI_CHAMBERLAIN",
+      "title": "The Kojiki: Records of Ancient Matters",
+      "bodyWordCount": 41503,
+      "headingCount": 175,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 179,
+        "taggedChunks": 175,
+        "entityChunks": 77,
+        "distinctFigures": 17,
+        "distinctCreatures": 9
+      },
+      "issues": [
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 651,
+          "text": "Emperor Su Jin (Part Vi. His Age And Place Of Burial)",
+          "wordCount": 24
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 658,
+          "text": "Emperor Sui Nin (Part I. Genealogies)",
+          "wordCount": 22
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 909,
+          "text": "Emperor Kei Ko (Part Xvi. Yamato Take'S Butler)",
+          "wordCount": 29
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 923,
+          "text": "Emperor Kei Ko (Part Xviii. His Age And Place Of Burial)",
+          "wordCount": 19
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 1150,
+          "text": "Emperor O Jin (Part Xv. His Age And Place Of Burial)",
+          "wordCount": 29
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 1164,
+          "text": "Emperor Nin Toku (Part Ii. Various Deeds)",
+          "wordCount": 26
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 1322,
+          "text": "Emperor Nin Toku (Part Xi. His Age And Place Of Burial)",
+          "wordCount": 18
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 1368,
+          "text": "Emperor Ri Chiu (Part V. His Age And Place Of Burial)",
+          "wordCount": 13
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 1655,
+          "text": "Emperor Yu Riyaku (Part Xiii. His Age And Place Of Burial)",
+          "wordCount": 20
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 1783,
+          "text": "Emperor Sen Kuwa",
+          "wordCount": 15
+        },
+        {
+          "workId": "JPN_KOJIKI_CHAMBERLAIN",
+          "type": "tiny-section",
+          "line": 1808,
+          "text": "Emperor Su Jun",
+          "wordCount": 28
+        }
+      ]
+    },
+    {
+      "file": "Mabinogion.md",
+      "workId": "WELSH_MABINOGION_GUEST",
+      "title": "The Mabinogion",
+      "bodyWordCount": 128862,
+      "headingCount": 13,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 237,
+        "taggedChunks": 236,
+        "entityChunks": 230,
+        "distinctFigures": 33,
+        "distinctCreatures": 13
+      },
+      "issues": [
+        {
+          "workId": "WELSH_MABINOGION_GUEST",
+          "type": "tiny-section",
+          "line": 1,
+          "text": "The Mabinogion",
+          "wordCount": 6
+        }
+      ]
+    },
+    {
+      "file": "Mahabharata.md",
+      "workId": "IND_MAHABHARATA_GANGULI",
+      "title": "The Mahabharata (Trans. Kisari Mohan Ganguli, 1883-1896)",
+      "bodyWordCount": 2578594,
+      "headingCount": 19,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 4609,
+        "taggedChunks": 4609,
+        "entityChunks": 4471,
+        "distinctFigures": 73,
+        "distinctCreatures": 14
+      },
+      "issues": []
+    },
+    {
+      "file": "Nibelungenlied.md",
+      "workId": "GER_NIBELUNGENLIED",
+      "title": "The Nibelungenlied",
+      "bodyWordCount": 78165,
+      "headingCount": 33,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 150,
+        "taggedChunks": 148,
+        "entityChunks": 150,
+        "distinctFigures": 26,
+        "distinctCreatures": 8
+      },
+      "issues": []
+    },
+    {
+      "file": "Odyssey.md",
+      "workId": "GRK_ODYSSEY_BUTLER",
+      "title": "The Odyssey",
+      "bodyWordCount": 120323,
+      "headingCount": 57,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 228,
+        "taggedChunks": 225,
+        "entityChunks": 224,
+        "distinctFigures": 50,
+        "distinctCreatures": 15
+      },
+      "issues": [
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "preface-edition",
+          "line": 12,
+          "text": "PREFACE TO FIRST EDITION"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "preface-edition",
+          "line": 13,
+          "text": "PREFACE TO SECOND EDITION"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 15,
+          "text": "BOOK I."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 16,
+          "text": "BOOK II."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 17,
+          "text": "BOOK III."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 18,
+          "text": "BOOK IV."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 19,
+          "text": "BOOK V."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 20,
+          "text": "BOOK VI."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 21,
+          "text": "BOOK VII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 22,
+          "text": "BOOK VIII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 23,
+          "text": "BOOK IX."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 24,
+          "text": "BOOK X."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 25,
+          "text": "BOOK XI."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 26,
+          "text": "BOOK XII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 27,
+          "text": "BOOK XIII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 28,
+          "text": "BOOK XIV."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 29,
+          "text": "BOOK XV."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 30,
+          "text": "BOOK XVI."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 31,
+          "text": "BOOK XVII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 32,
+          "text": "BOOK XVIII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 33,
+          "text": "BOOK XIX."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 34,
+          "text": "BOOK XX."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 35,
+          "text": "BOOK XXI."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 36,
+          "text": "BOOK XXII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 37,
+          "text": "BOOK XXIII."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 38,
+          "text": "BOOK XXIV."
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "preface-edition",
+          "line": 46,
+          "text": "PREFACE TO FIRST EDITION"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "preface-edition",
+          "line": 254,
+          "text": "PREFACE TO SECOND EDITION"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 324,
+          "text": "BOOK I"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 684,
+          "text": "BOOK II"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 1055,
+          "text": "BOOK III"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 1477,
+          "text": "BOOK IV"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 2202,
+          "text": "BOOK V"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 2604,
+          "text": "BOOK VI"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 2899,
+          "text": "BOOK VII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 3199,
+          "text": "BOOK VIII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 3702,
+          "text": "BOOK IX"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 4194,
+          "text": "BOOK X"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 4687,
+          "text": "BOOK XI"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 5212,
+          "text": "BOOK XII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 5608,
+          "text": "BOOK XIII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 5982,
+          "text": "BOOK XIV"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 6430,
+          "text": "BOOK XV"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 6905,
+          "text": "BOOK XVI"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 7311,
+          "text": "BOOK XVII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 7845,
+          "text": "BOOK XVIII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 8224,
+          "text": "BOOK XIX"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 8732,
+          "text": "BOOK XX"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 9083,
+          "text": "BOOK XXI"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 9461,
+          "text": "BOOK XXII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 9885,
+          "text": "BOOK XXIII"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "suspicious-heading",
+          "subtype": "generic-book-heading",
+          "line": 10207,
+          "text": "BOOK XXIV"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "tiny-section",
+          "line": 38,
+          "text": "BOOK XXIV.",
+          "wordCount": 1
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "tiny-section",
+          "line": 41,
+          "text": "AL PROFESSORE",
+          "wordCount": 3
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "tiny-section",
+          "line": 43,
+          "text": "PREZIOSO ALLEATO",
+          "wordCount": 2
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "tiny-section",
+          "line": 9083,
+          "text": "BOOK XXI",
+          "wordCount": 12
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "duplicate-heading",
+          "text": "preface to first edition"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "duplicate-heading",
+          "text": "preface to second edition"
+        },
+        {
+          "workId": "GRK_ODYSSEY_BUTLER",
+          "type": "duplicate-heading",
+          "text": "the odyssey"
+        }
+      ]
+    },
+    {
+      "file": "Ovid_Metamorphoses.md",
+      "workId": "ROM_METAMORPHOSES_OVID_MORE",
+      "title": "Metamorphoses",
+      "bodyWordCount": 135012,
+      "headingCount": 15,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 247,
+        "taggedChunks": 247,
+        "entityChunks": 235,
+        "distinctFigures": 69,
+        "distinctCreatures": 28
+      },
+      "issues": []
+    },
+    {
+      "file": "Poetic_Edda.md",
+      "workId": "NORSE_POETIC_EDDA_BELLOWS",
+      "title": "The Poetic Edda",
+      "bodyWordCount": 49852,
+      "headingCount": 38,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 102,
+        "taggedChunks": 101,
+        "entityChunks": 88,
+        "distinctFigures": 35,
+        "distinctCreatures": 14
+      },
+      "issues": [
+        {
+          "workId": "NORSE_POETIC_EDDA_BELLOWS",
+          "type": "tiny-section",
+          "line": 1,
+          "text": "The Poetic Edda",
+          "wordCount": 9
+        },
+        {
+          "workId": "NORSE_POETIC_EDDA_BELLOWS",
+          "type": "duplicate-heading",
+          "text": "(iii)"
+        }
+      ]
+    },
+    {
+      "file": "Popol_Vuh.md",
+      "workId": "MAYA_POPOL_VUH_GOETZ",
+      "title": "Popol Vuh: The Sacred Book of the Ancient K'iche' Maya",
+      "bodyWordCount": 6806,
+      "headingCount": 3,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 14,
+        "taggedChunks": 14,
+        "entityChunks": 13,
+        "distinctFigures": 17,
+        "distinctCreatures": 4
+      },
+      "issues": []
+    },
+    {
+      "file": "Prose_Edda.md",
+      "workId": "NORSE_PROSE_EDDA_BRODEUR",
+      "title": "The Prose Edda",
+      "bodyWordCount": 26055,
+      "headingCount": 48,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 72,
+        "taggedChunks": 70,
+        "entityChunks": 67,
+        "distinctFigures": 27,
+        "distinctCreatures": 14
+      },
+      "issues": [
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "tiny-section",
+          "line": 26,
+          "text": "Gylfaginning",
+          "wordCount": 4
+        },
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "tiny-section",
+          "line": 176,
+          "text": "XXX",
+          "wordCount": 21
+        },
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "tiny-section",
+          "line": 231,
+          "text": "Skáldskaparmál",
+          "wordCount": 7
+        },
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "duplicate-heading",
+          "text": "ii"
+        },
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "duplicate-heading",
+          "text": "iii"
+        },
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "duplicate-heading",
+          "text": "iv"
+        },
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "duplicate-heading",
+          "text": "v"
+        },
+        {
+          "workId": "NORSE_PROSE_EDDA_BRODEUR",
+          "type": "duplicate-heading",
+          "text": "i"
+        }
+      ]
+    },
+    {
+      "file": "Pyramid_Texts.md",
+      "workId": "EGY_PYRAMID_TEXTS_MERCER",
+      "title": "The Pyramid Texts (Trans. Samuel A. B. Mercer, 1952)",
+      "bodyWordCount": 89821,
+      "headingCount": 625,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 595,
+        "taggedChunks": 554,
+        "entityChunks": 479,
+        "distinctFigures": 24,
+        "distinctCreatures": 5
+      },
+      "issues": [
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 1,
+          "text": "The Pyramid Texts",
+          "wordCount": 8
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 15,
+          "text": "Utterance 2",
+          "wordCount": 16
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 61,
+          "text": "Utterance 8",
+          "wordCount": 15
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 140,
+          "text": "Utterance 22",
+          "wordCount": 18
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 154,
+          "text": "Utterance 24",
+          "wordCount": 20
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 197,
+          "text": "Utterance 30",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 202,
+          "text": "Utterance 31",
+          "wordCount": 13
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 272,
+          "text": "Utterance 37",
+          "wordCount": 14
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 501,
+          "text": "Utterance 79",
+          "wordCount": 17
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 506,
+          "text": "Utterance 79-80",
+          "wordCount": 6
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 650,
+          "text": "Utterance 107",
+          "wordCount": 12
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 986,
+          "text": "Utterance 173",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 1721,
+          "text": "Utterance 232",
+          "wordCount": 29
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 1728,
+          "text": "Utterance 233",
+          "wordCount": 26
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 1740,
+          "text": "Utterance 235",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 1745,
+          "text": "Utterance 236",
+          "wordCount": 12
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 1750,
+          "text": "Utterance 237",
+          "wordCount": 27
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 1781,
+          "text": "Utterance 241",
+          "wordCount": 24
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2629,
+          "text": "Utterance 276",
+          "wordCount": 25
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2635,
+          "text": "Utterance 277",
+          "wordCount": 20
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2650,
+          "text": "Utterance 279",
+          "wordCount": 27
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2656,
+          "text": "Utterance 280",
+          "wordCount": 18
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2678,
+          "text": "Utterance 283",
+          "wordCount": 29
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2714,
+          "text": "Utterance 287",
+          "wordCount": 21
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2725,
+          "text": "Utterance 289",
+          "wordCount": 24
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2731,
+          "text": "Utterance 290",
+          "wordCount": 26
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2743,
+          "text": "Utterance 292",
+          "wordCount": 17
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 2778,
+          "text": "Utterance 296",
+          "wordCount": 28
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 3103,
+          "text": "Utterance 312",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 3118,
+          "text": "Utterance 314",
+          "wordCount": 24
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 3293,
+          "text": "Utterance 326",
+          "wordCount": 27
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 3457,
+          "text": "Utterance 343",
+          "wordCount": 20
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 3538,
+          "text": "Utterance 353",
+          "wordCount": 15
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 3542,
+          "text": "Utterance 354",
+          "wordCount": 20
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 3651,
+          "text": "Utterance 358",
+          "wordCount": 22
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4031,
+          "text": "Utterance 376",
+          "wordCount": 29
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4066,
+          "text": "Utterance 379",
+          "wordCount": 15
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4070,
+          "text": "Utterance 380",
+          "wordCount": 18
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4076,
+          "text": "Utterance 381",
+          "wordCount": 21
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4145,
+          "text": "Utterance 387",
+          "wordCount": 25
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4199,
+          "text": "Utterance 392",
+          "wordCount": 22
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4215,
+          "text": "Utterance 394",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4227,
+          "text": "Utterance 396",
+          "wordCount": 17
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4232,
+          "text": "Utterance 397",
+          "wordCount": 22
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4246,
+          "text": "Utterance 399",
+          "wordCount": 15
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4401,
+          "text": "Utterance 411",
+          "wordCount": 16
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4509,
+          "text": "Utterance 416",
+          "wordCount": 16
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4573,
+          "text": "Utterance 421",
+          "wordCount": 24
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4690,
+          "text": "Utterance 426",
+          "wordCount": 29
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4704,
+          "text": "Utterance 428",
+          "wordCount": 22
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4717,
+          "text": "Utterance 430",
+          "wordCount": 22
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 4740,
+          "text": "Utterance 433",
+          "wordCount": 26
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 5014,
+          "text": "Utterance 448",
+          "wordCount": 25
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 5019,
+          "text": "Utterance 449",
+          "wordCount": 16
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 5267,
+          "text": "Utterance 464",
+          "wordCount": 23
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 6094,
+          "text": "Utterance 489",
+          "wordCount": 27
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 6101,
+          "text": "Utterance 490",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 6121,
+          "text": "Utterance 492",
+          "wordCount": 4
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 6212,
+          "text": "Utterance 499",
+          "wordCount": 23
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 6225,
+          "text": "Utterance 501",
+          "wordCount": 21
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 6231,
+          "text": "Utterance 502",
+          "wordCount": 21
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 7479,
+          "text": "Utterance 546",
+          "wordCount": 21
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 7484,
+          "text": "Utterance 547",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 7513,
+          "text": "Utterance 549",
+          "wordCount": 24
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 7519,
+          "text": "Utterance 550",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 7532,
+          "text": "Utterance 552",
+          "wordCount": 10
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 7680,
+          "text": "Utterance 557",
+          "wordCount": 27
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 8641,
+          "text": "Utterance 589",
+          "wordCount": 23
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 8758,
+          "text": "Utterance 594",
+          "wordCount": 26
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 8773,
+          "text": "Utterance 596",
+          "wordCount": 28
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 8779,
+          "text": "Utterance 597",
+          "wordCount": 18
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9272,
+          "text": "Utterance 616",
+          "wordCount": 27
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9289,
+          "text": "Utterance 618",
+          "wordCount": 21
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9320,
+          "text": "Utterance 620",
+          "wordCount": 22
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9325,
+          "text": "Utterance 621",
+          "wordCount": 26
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9337,
+          "text": "Utterance 623",
+          "wordCount": 14
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9475,
+          "text": "Utterance 629",
+          "wordCount": 14
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9479,
+          "text": "Utterance 630",
+          "wordCount": 21
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9484,
+          "text": "Utterance 631",
+          "wordCount": 13
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9488,
+          "text": "Utterance 632",
+          "wordCount": 29
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9494,
+          "text": "Utterance 633",
+          "wordCount": 10
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9622,
+          "text": "Utterance 644",
+          "wordCount": 27
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9730,
+          "text": "Utterance 651",
+          "wordCount": 15
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9734,
+          "text": "Utterance 652",
+          "wordCount": 25
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9740,
+          "text": "Utterance 653",
+          "wordCount": 14
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9744,
+          "text": "Utterance 654",
+          "wordCount": 19
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9768,
+          "text": "Utterance 656",
+          "wordCount": 13
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 9773,
+          "text": "Utterance 657",
+          "wordCount": 20
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 10638,
+          "text": "Utterance 680",
+          "wordCount": 15
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "tiny-section",
+          "line": 11086,
+          "text": "Utterance 692",
+          "wordCount": 7
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "low-tag-coverage",
+          "text": "554/595 chunks have at least one tag"
+        },
+        {
+          "workId": "EGY_PYRAMID_TEXTS_MERCER",
+          "type": "duplicate-heading",
+          "text": "utterance 497"
+        }
+      ]
+    },
+    {
+      "file": "Ramayana.md",
+      "workId": "IND_RAMAYANA_GRIFFITH",
+      "title": "The Ramayana (Trans. Ralph T. H. Griffith, 1870-1874)",
+      "bodyWordCount": 336498,
+      "headingCount": 26,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "partial",
+      "index": {
+        "chunkCount": 610,
+        "taggedChunks": 610,
+        "entityChunks": 601,
+        "distinctFigures": 45,
+        "distinctCreatures": 19
+      },
+      "issues": [
+        {
+          "workId": "IND_RAMAYANA_GRIFFITH",
+          "type": "completeness-caveat",
+          "subtype": "partial",
+          "notes": "Griffith translation excludes the Uttara Kanda."
+        }
+      ]
+    },
+    {
+      "file": "Rg_Veda.md",
+      "workId": "VED_RG_VEDA_GRIFFITH",
+      "title": "The Rig Veda",
+      "bodyWordCount": 306820,
+      "headingCount": 1025,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 1067,
+        "taggedChunks": 1059,
+        "entityChunks": 1045,
+        "distinctFigures": 36,
+        "distinctCreatures": 14
+      },
+      "issues": [
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 3,
+          "text": "RIG VEDA BOOK ONE",
+          "wordCount": 10
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 8485,
+          "text": "RIG VEDA BOOK TWO",
+          "wordCount": 5
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 10303,
+          "text": "RIG VEDA BOOK THREE",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 12897,
+          "text": "RIG VEDA BOOK FOUR",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 15381,
+          "text": "RIG VEDA BOOK FIVE",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 18463,
+          "text": "RIG VEDA BOOK SIX",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 21677,
+          "text": "RIG VEDA BOOK SEVEN",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 25179,
+          "text": "RIG VEDA BOOK EIGHT",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 31855,
+          "text": "VALAKHILYA",
+          "wordCount": 6
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 32203,
+          "text": "RIG VEDA BOOK NINE",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "tiny-section",
+          "line": 36829,
+          "text": "RIG VEDA BOOK TEN",
+          "wordCount": 2
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lx. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn clxxi. maruts."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn i. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xvi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn ii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn v. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn vi. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn x. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxvi. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxvii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxx. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxiii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn li. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn iii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn vii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn ix. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xiii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xiv. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xv. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xvii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xix. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xx. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxix. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lv. visvedevas."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn iv. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn viii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xi. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xvi. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xvii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xviii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xix. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxi. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxiii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxiv. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxv. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxviii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxix. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxiv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxvi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxvii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxviii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxix. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn iv agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxiii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxiv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxvi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xliv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xlv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xlvi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xlix. visvedevas."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn l. visvedevas."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn li. visvedevas."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xviii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxvii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxix indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxviii. savitar."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lvi. maruts."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lvii. maruts."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lix. maruts."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxiii. mitra-varuna."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxiii. asvins."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxix. dawn."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxx. dawn."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xiii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xiv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xliv. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn l. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn liv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lvii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxii. asvins."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxiii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxiv. asvins."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxv. asvins."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxx. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxxii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxxiv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn i. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn ii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn iii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn iv. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn v. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn vi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn ix. asvins."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xx. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxi. visvedevas."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xxxv. visvedevas."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xlii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xliii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lvi. visvedevas."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxix. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn lxxxvi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn xci. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn cii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn ciii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn civ. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn cxxxi. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn cxxxiii. indra."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn cxl. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn cxliii. agni."
+        },
+        {
+          "workId": "VED_RG_VEDA_GRIFFITH",
+          "type": "duplicate-heading",
+          "text": "hymn cl. agni."
+        }
+      ]
+    },
+    {
+      "file": "Shahnameh.md",
+      "workId": "PER_SHAHNAMEH_ATKINSON",
+      "title": "The Shah Nameh",
+      "bodyWordCount": 121698,
+      "headingCount": 5,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "abridged",
+      "index": {
+        "chunkCount": 219,
+        "taggedChunks": 219,
+        "entityChunks": 217,
+        "distinctFigures": 20,
+        "distinctCreatures": 15
+      },
+      "issues": [
+        {
+          "workId": "PER_SHAHNAMEH_ATKINSON",
+          "type": "completeness-caveat",
+          "subtype": "abridged",
+          "notes": "Atkinson rendering from Project Gutenberg eBook 10315."
+        }
+      ]
+    },
+    {
+      "file": "Tain_Bo_Cuailnge.md",
+      "workId": "IRISH_TAIN_BO_CUAILNGE_FARADAY",
+      "title": "Táin Bó Cúailnge (The Cattle Raid of Cooley)",
+      "bodyWordCount": 39008,
+      "headingCount": 8,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 73,
+        "taggedChunks": 73,
+        "entityChunks": 73,
+        "distinctFigures": 19,
+        "distinctCreatures": 1
+      },
+      "issues": []
+    },
+    {
+      "file": "Volsunga_Saga.md",
+      "workId": "NORSE_VOLSUNGA_SAGA_MAGNUSSON_MORRIS",
+      "title": "The Story of the Volsungs",
+      "bodyWordCount": 46651,
+      "headingCount": 7,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 87,
+        "taggedChunks": 87,
+        "entityChunks": 85,
+        "distinctFigures": 28,
+        "distinctCreatures": 9
+      },
+      "issues": [
+        {
+          "workId": "NORSE_VOLSUNGA_SAGA_MAGNUSSON_MORRIS",
+          "type": "tiny-section",
+          "line": 4307,
+          "text": "NOW MAY ALL EARLS",
+          "wordCount": 4
+        },
+        {
+          "workId": "NORSE_VOLSUNGA_SAGA_MAGNUSSON_MORRIS",
+          "type": "tiny-section",
+          "line": 4309,
+          "text": "MAY THE GRIEF OF ALL MAIDENS",
+          "wordCount": 3
+        },
+        {
+          "workId": "NORSE_VOLSUNGA_SAGA_MAGNUSSON_MORRIS",
+          "type": "duplicate-heading",
+          "text": "the giant-woman"
+        }
+      ]
+    },
+    {
+      "file": "epic_of_gilgamish_full.md",
+      "workId": "AKK_GILGAMESH_RCT_EPIC",
+      "title": "The Epic of Gilgamesh (Trans. R. Campbell Thompson, 1928)",
+      "bodyWordCount": 23131,
+      "headingCount": 75,
+      "manifestStatus": "machine_tagged",
+      "manifestCompleteness": "complete",
+      "index": {
+        "chunkCount": 72,
+        "taggedChunks": 69,
+        "entityChunks": 66,
+        "distinctFigures": 47,
+        "distinctCreatures": 10
+      },
+      "issues": [
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "suspicious-heading",
+          "subtype": "footnotes",
+          "line": 2549,
+          "text": "Footnotes"
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "tiny-section",
+          "line": 47,
+          "text": "OF THE TYRANNY OF GILGAMISH, AND THE CREATION OF ENKIDU",
+          "wordCount": 6
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "tiny-section",
+          "line": 392,
+          "text": "OF THE MEETING OF GILGAMISH AND ENKIDU",
+          "wordCount": 1
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "duplicate-heading",
+          "text": "column ii"
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "duplicate-heading",
+          "text": "column iii"
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "duplicate-heading",
+          "text": "column iv"
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "duplicate-heading",
+          "text": "column v"
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "duplicate-heading",
+          "text": "column vi"
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "duplicate-heading",
+          "text": "column i"
+        },
+        {
+          "workId": "AKK_GILGAMESH_RCT_EPIC",
+          "type": "duplicate-heading",
+          "text": "column ii (assyrian version continued)"
+        }
+      ]
+    }
+  ]
+}

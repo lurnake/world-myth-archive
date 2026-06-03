@@ -1,0 +1,31 @@
+# Environment variables
+.env.local
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Large downloaded files (keep consolidated versions)
+raw_downloads/mythological_texts/
+raw_downloads/github_sources/
+
+# Generated; often >100MB (GitHub single-file limit). Run: npm run generate:search
+world-mythological-codex-ui/public/search-index.json 

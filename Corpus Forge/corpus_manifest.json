@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-03",
+  "editorialStages": {
+    "raw": "Text exists but has not been cleaned or checked.",
+    "cleaned": "Text has been cleaned into readable Markdown.",
+    "metadata_complete": "Work-level provenance and controlled vocabulary metadata are present.",
+    "machine_tagged": "Passages have automated controlled-vocabulary tags.",
+    "human_reviewed": "A human editor has reviewed text and tags.",
+    "scholar_reviewed": "A domain specialist has reviewed text and tags."
+  },
+  "works": [
+    {
+      "docId": "EGY_BOOK_DEAD_BUDGE",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "selected_recension",
+      "notes": "Budge translation of the Papyrus of Ani tradition."
+    },
+    {
+      "docId": "AKK_ENUMA_ELIS_KING",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Leonard W. King public-domain translation."
+    },
+    {
+      "docId": "AKK_GILGAMESH_RCT_EPIC",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "R. Campbell Thompson translation with fragmentary-tablet lacunae preserved."
+    },
+    {
+      "docId": "GRK_THEOGONY_HESIOD_EVELYN",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Promoted from Project Gutenberg eBook 348."
+    },
+    {
+      "docId": "GRK_HOMERIC_HYMNS_EVELYN",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Promoted from Project Gutenberg eBook 348."
+    },
+    {
+      "docId": "FINN_KALEVALA_CRAWFORD",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Crawford translation."
+    },
+    {
+      "docId": "JPN_KOJIKI_CHAMBERLAIN",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Chamberlain translation."
+    },
+    {
+      "docId": "WELSH_MABINOGION_GUEST",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Lady Charlotte Guest translation."
+    },
+    {
+      "docId": "IND_MAHABHARATA_GANGULI",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Ganguli unabridged translation."
+    },
+    {
+      "docId": "ROM_METAMORPHOSES_OVID_MORE",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Brookes More translation."
+    },
+    {
+      "docId": "NORSE_POETIC_EDDA_BELLOWS",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Bellows translation."
+    },
+    {
+      "docId": "MAYA_POPOL_VUH_GOETZ",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Lewis Spence public-domain translation (1908) from Project Gutenberg eBook 56550. The previous Goetz/Morley template has been replaced with this complete Spence rendering."
+    },
+    {
+      "docId": "NORSE_PROSE_EDDA_BRODEUR",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Brodeur translation."
+    },
+    {
+      "docId": "EGY_PYRAMID_TEXTS_MERCER",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Mercer translation."
+    },
+    {
+      "docId": "IND_RAMAYANA_GRIFFITH",
+      "status": "machine_tagged",
+      "completeness": "partial",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "missing_uttara_kanda",
+      "notes": "Griffith translation excludes the Uttara Kanda."
+    },
+    {
+      "docId": "VED_RG_VEDA_GRIFFITH",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "public_domain_mirror",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Public-domain Griffith mirror used because sacred-texts blocks automated download."
+    },
+    {
+      "docId": "PER_SHAHNAMEH_ATKINSON",
+      "status": "machine_tagged",
+      "completeness": "abridged",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "abridged_translation",
+      "notes": "Atkinson rendering from Project Gutenberg eBook 10315."
+    },
+    {
+      "docId": "GRK_ILIAD_BUTLER",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Samuel Butler prose translation from Project Gutenberg eBook 2199."
+    },
+    {
+      "docId": "GRK_ODYSSEY_BUTLER",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Samuel Butler prose translation from Project Gutenberg eBook 1727."
+    },
+    {
+      "docId": "ROM_AENEID_DRYDEN",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "John Dryden verse translation from Project Gutenberg eBook 228."
+    },
+    {
+      "docId": "GRK_ARGONAUTICA_SEATON",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "R. C. Seaton Loeb translation from Project Gutenberg eBook 830."
+    },
+    {
+      "docId": "ANG_BEOWULF_HALL",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Jno. Lesslie Hall translation from Project Gutenberg eBook 16328."
+    },
+    {
+      "docId": "GER_NIBELUNGENLIED",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Daniel B. Shumway translation from Project Gutenberg eBook 1151."
+    },
+    {
+      "docId": "NORSE_VOLSUNGA_SAGA_MAGNUSSON_MORRIS",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation",
+      "notes": "Eirikr Magnusson and William Morris translation from Project Gutenberg eBook 1152."
+    },
+    {
+      "docId": "CHN_SHAN_HAI_JING",
+      "status": "metadata_only",
+      "completeness": "not_ingested",
+      "rights": "public_domain_or_open_source",
+      "sourceQuality": "source_text_extract",
+      "tagReview": "automated",
+      "translationCompleteness": "partial_or_catalog_extract",
+      "notes": "Template prepared but no lawful English full-text source is currently bundled. A public-domain translation has not been located. The file is held in Corpus Forge/pending until a lawful source is identified."
+    },
+    {
+      "docId": "IRISH_TAIN_BO_CUAILNGE_FARADAY",
+      "status": "machine_tagged",
+      "completeness": "complete",
+      "rights": "public_domain",
+      "sourceQuality": "published_translation",
+      "tagReview": "automated",
+      "translationCompleteness": "complete_translation_of_recension_I",
+      "notes": "L. Winifred Faraday's 1904 translation (David Nutt, London), the first English rendering of the Táin, made from Lebor na hUidre and the Yellow Book of Lecan (Recension I). Public domain; sourced from Project Gutenberg eBook 14391. This is the shorter, older recension and a partial witness to the full epic; the previously bundled O'Rahilly (1967) translation of Recension II was removed because it remains under copyright."
+    },
+    {
+      "docId": "QUE_HUAROCHIRI_PENDING",
+      "title": "Huarochiri Manuscript",
+      "culture": "Quechua/Andean",
+      "status": "metadata_only",
+      "completeness": "not_ingested",
+      "rights": "rights_limited",
+      "sourceQuality": "rights_pending",
+      "tagReview": "none",
+      "translationCompleteness": "not_ingested",
+      "notes": "Starter-list item not bundled because the named Salomon/Urioste English edition is modern/copyrighted."
+    }
+  ]
+}

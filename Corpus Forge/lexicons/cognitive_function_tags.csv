@@ -1,0 +1,13 @@
+code,label,notes
+COG_AGENCY_DETECTION,Hyperactive Agency Detection,"Tendency to attribute intentional agency to ambiguous events or non-agentic entities, foundational to many explanations of belief in gods/spirits (Boyer, Atran)"
+COG_MEMORY_TRANSMISSION,Mnemonic Transmission Enhancement,"Narrative features (e.g., repetition, rhyme, vivid imagery, minimally counterintuitive elements) that improve memorability and fidelity of cultural transmission"
+COG_GROUP_IDENTITY,Group Identity Reinforcement,"Narratives that foster in-group cohesion, define group boundaries, or create a shared collective identity (Henrich, Atran)"
+COG_MORAL_REGULATION,Moral Regulation & Norm Enforcement,"Myths encoding, justifying, or illustrating social norms, ethical guidelines, and consequences for transgressions, often policed by supernatural agents"
+COG_COOPERATION_FACILITATION,Cooperation Facilitation,"Stories, beliefs, or associated rituals that promote pro-social behavior, trust, and collective action within a group (Henrich, Norenzayan)"
+COG_THREAT_ANXIETY_MANAGEMENT,Threat & Anxiety Management,"Narratives or ritual prescriptions that address existential threats (death, disease, disaster), reduce psychological uncertainty, or provide frameworks for coping"
+COG_MINIMALLY_COUNTERINTUITIVE,Minimally Counterintuitive (MCI) Concepts,"Presence of a small number of violations of intuitive ontological expectations (e.g., talking animal, thinking object), making narratives attention-grabbing and memorable (Boyer)"
+COG_RITUAL_BINDING_COMMITMENT,Ritual Binding & Costly Signaling,"Myths that structure or give meaning to ritual acts, especially those involving costly displays that signal commitment to group norms and beliefs, enhancing trust (Atran, Henrich, Sosis)"
+COG_INTUITIVE_ONTOLOGY_MANIPULATION,Intuitive Ontology Manipulation,"Myths that leverage or slightly violate intuitive knowledge about folkpsychology, folkbiology, or folkphysics to create compelling narratives (e.g. purity/pollution leveraging folkbiology)"
+COG_STATUS_HIERARCHY_LEGITIMATION,Status Hierarchy Legitimization,"Myths that explain, justify, or naturalize social stratification, leadership roles, or power differentials within a society"
+COG_SOCIAL_LEARNING_BIAS_EXPLOITATION,Social Learning Bias Exploitation,"Narratives that capitalize on evolved social learning biases (e.g., prestige bias, conformist bias) for their transmission and acceptance (Henrich)"
+COG_PROSOCIAL_PUNISHMENT,Supernatural Prosocial Punishment,"Belief in supernatural agents who monitor and punish selfish or anti-social behavior, thereby supporting cooperation and norm adherence"
