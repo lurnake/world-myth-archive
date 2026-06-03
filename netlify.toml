@@ -1,0 +1,14 @@
+# Netlify build configuration.
+#
+# The search index (world-mythological-codex-ui/public/search-index.json) is
+# generated from the corpus, not committed. So the build must run
+# `generate:data` BEFORE the Vite build, or the deployed site ships without a
+# search index. The generate scripts use only Node built-ins; the UI build
+# needs the dependencies in world-mythological-codex-ui/.
+
+[build]
+  command = "npm install --prefix world-mythological-codex-ui && npm run generate:data && npm run ui:build"
+  publish = "world-mythological-codex-ui/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
