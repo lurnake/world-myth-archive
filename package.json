@@ -10,5 +10,8 @@
     "ui:dev": "npm --prefix world-mythological-codex-ui run dev",
     "ui:build": "npm --prefix world-mythological-codex-ui run build",
     "ui:lint": "npm --prefix world-mythological-codex-ui run lint"
+  },
+  "engines": {
+    "node": ">=24.22.1 <25"
   }
 }
