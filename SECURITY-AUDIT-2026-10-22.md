@@ -30,3 +30,7 @@ A failed check is not classified as pre-existing without a baseline comparison. 
 This is a draft patch. Resolve the failed checks and remaining advisories before treating the repository as fully remediated. Merge and redeploy separately, then verify the actual Node version in each hosting environment. Package pins do not update a running server.
 
 Node advisory: https://nodejs.org/en/blog/vulnerability/october-2026-security-releases
+
+## Remaining-advisory follow-up
+
+22 October 2026: verified clean installs and project checks after dependency remediation. The vendored packages retain their real upstream versions and continue to appear in npm audit. See `world-mythological-codex-ui/vendor/security/README.md` for local mitigations, allocation limits, licenses and archive hashes. No branch protections were bypassed; external production integrations are not covered by these local checks.
