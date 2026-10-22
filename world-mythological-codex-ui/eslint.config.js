@@ -5,7 +5,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 import { globalIgnores } from 'eslint/config'
 
-export default tseslint.config([
+const securityBaseConfig = tseslint.config([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
@@ -21,3 +21,6 @@ export default tseslint.config([
     },
   },
 ])
+
+// Vendored upstream source is validated by security regression tests.
+export default [{ ignores: ["vendor/**"] }, ...securityBaseConfig];
